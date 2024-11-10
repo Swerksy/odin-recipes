@@ -1,0 +1,53 @@
+
+html {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 120%;
+
+}
+
+.wrapper {
+
+    background-color: rgb(221, 238, 238);
+    width: auto;
+    
+}
+
+.box,
+.border {
+
+    background-color: rgb(231, 220, 147);
+    border: 5px solid rgba(228, 125, 30, 0.895);
+    padding: 20px;
+    height: auto;
+    width: 800px;
+    margin: 60px;
+    
+}
+
+img {
+
+    position: relative;
+    background-position: center;
+}
+h1 {
+
+    font-size: 2.5em;
+
+}
+
+h2 {
+
+    font-size: 2em;
+
+}
+
+#no-list {
+
+    height: 100px;
+    width: 300px;
+    border-radius: 0.5em;
+    text-align: left
+
+}
