@@ -1,63 +1,69 @@
 
 html {
-
+    background-color: beige;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     line-height: 120%;
-
+    text-align: justify;
 }
 
-.wrapper {
+*,
+*:after,
+*:before {
 
-    background-color: rgba(106, 155, 23, 0.278);
-    height: auto;
-    width: 1020px;
-}
+        box-sizing: inherit;
+} 
 
 .box {
 
     background-color: rgb(231, 220, 147);
     border: 5px solid rgba(228, 125, 30, 0.895);
+    border-style: groove;
+    border-radius: 180px;
     padding: 40px;
     height: auto;
-    width: 800px;
-    margin: 60px;   
+    width: 1000px;
+    margin: 60px;
+    margin-left: auto;
+    margin-right: auto;   
 }
 
 #img {
     display: block;
+    box-sizing: content-box;
     width: 25%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10%;
-  
 } 
 
 #img-1 {
     display: block;
-    border: 1px solid black;
-    border-radius: 8px;
+    box-sizing: content-box;
+    border: 10px double black;
     width: 50%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15%;
-    margin-bottom: 5%;
+}
+
+a {
+    display: inline-block;
+    padding: 5px;
+}
+
+a:hover {
+
+    color: brown;
 }
 
 h1 {
     font-size: 3.5em;
-    position: absolute;
-    top: 10%;
-    left: 10%;
-    margin-left: auto;
-    margin-right: auto;
-
+    text-align: center;
 }
 
 h2 {
- 
     font-size: 2em;
 }
 
@@ -66,12 +72,14 @@ h3 {
     font-size: 1.5em;
 }
 
+p {
+    text-align: justify;
+
+}
+
 li {
 
     margin-bottom: 10px;
 }
 
-p {
-    text-align: justify;
 
-}
